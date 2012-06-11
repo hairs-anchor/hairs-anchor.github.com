@@ -1,0 +1,131 @@
+﻿@charset "utf-8";
+
+/*======================================================================*//**
+ * #page Setting
+ */
+
+#page-content #page-subject {
+	background		:#FFF url(/images/subject-bg-home.png) no-repeat;
+}
+
+#page-footer {
+	padding	:10px 10px 50px;
+	/*background	:url(/css/footer_bg.png) no-repeat bottom;*/
+	background	:url(/css/footer_bg_white.png) no-repeat bottom;
+}
+#page-footer #navi-foot {
+	list-style	:none;
+	margin		:0 1px;
+	padding		:5px 0 5px 5px;
+	background	:#DDD;
+}
+#page-footer #navi-foot li {
+	color		:#333;
+	display		:list-item !important;display:inline;
+	float		:right;
+	margin		:0 5px 0 0;
+	padding		:0 10px 0 11px;
+	background	:url(/css/separate_dot_gl_h.png) repeat-y;
+}
+#page-footer #navi-foot li:first-child {
+	background	:none;
+	text-align	:right;
+}
+#page-footer #navi-foot li a {
+	color	:#FFF;
+}
+#page-footer #navi-foot li a:visited {
+	color	:#FFF;
+}
+#page-footer #navi-foot li a:hover {
+	color	:#F33;
+}
+#page-footer #navi-foot li a:active {
+	color	:#F33;
+}
+#page-footer #navi-supply {
+	display		:block !important;display:inline;
+	float		:left;
+	list-style	:none;
+	margin		:10px;
+}
+#page-footer #navi-supply li {
+	display	:list-item !important;display:inline;
+	float	:left;
+	margin	:0 5px 0 0;
+}
+#page-footer #navi-pagetop {
+	position	:absolute;
+	top		:10px;
+	right		:10px;
+}
+#page-footer #navi-pagetop a {
+	color		:#FFF;
+	display		:block;
+	margin		:0 10px 0 0;
+	padding		:5px 15px 5px 10px;
+	background	:url(/css/navi_pagetop.png) no-repeat right;
+}
+#page-footer #navi-pagetop a:visited {
+	color	:#FFF;
+}
+#page-footer #navi-pagetop a:hover {
+	color	:#F33;
+}
+#page-footer #navi-pagetop a:active {
+	color	:#F33;
+}
+#page-footer #page-copyright {
+	display		:block !important;display:inline;
+	text-align	:right;
+	float		:right;
+	margin		:10px;
+}
+
+/*
+.scissorsTitle {
+	color: #FFF;
+	padding:0 0 0 50px;
+	background:url(/images/scissors-menu.png)  left top no-repeat;
+}
+*/
+
+.section-half-left {
+	display: block !important;
+	float: left;
+	margin: 0 20px 10px 0;
+	width: 400px;
+}
+
+.section-half-right {
+	display: block !important;
+	float: right;
+	margin: 0 0 10px;
+	width: 400px;
+}
+
+.section-wide {
+	display: block !important;
+	float: none;
+	width: 850px;
+}
+.menu-name {
+	color: #C02844;
+}
+
+.description {
+	color: #00647D;
+}
+
+.detail {
+	color: #876948;
+}
+
+#drycut-images {
+	/*border: solid 1px #876948;*/
+}
+
+#drycut-images h2 {
+	font-size: 110%;
+	font-weight: bold;
+}

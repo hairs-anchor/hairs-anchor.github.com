@@ -1,0 +1,643 @@
+﻿@charset "utf-8";
+
+/*======================================================================*//**
+ * Basic HTML Setting
+ */
+
+iframe {
+	min-height: 200px !important;
+	min-width: 200px !important;
+}
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #FFF;
+}
+
+hr {
+	display: none;
+}
+
+strong {
+	font-weight: bold;
+}
+
+img {
+	border: 0;
+}
+
+ul, ol, li, dl, dt, dd {
+	margin: 0;
+	padding: 0;
+}
+dl {
+	margin			:1.5em 0 1em;
+	border			:1px solid #CCC;
+}
+dl dt {
+	position		:relative;
+	left			:0;
+	top				:-0.5em;
+	font-weight		:bold;
+	line-height		:125%;
+	margin			:0 1em;
+	padding			:0 0.5em;
+	background		:#FFF;
+}
+dl dd {
+	padding			:0 1em 1em;
+}
+
+/*======================================================================*//**
+ * Div Setting
+ */
+div, ul, ol, dl {
+	position		:relative;
+	zoom			:100%;
+}
+div:after, ul:after, ol:after, dl:after {
+	content			:".";
+	font-size		:0.1em;
+	line-height		:0;
+	height			:0.1px;
+	display			:block;
+	clear			:both;
+	visibility		:hidden;
+}
+
+/*======================================================================*//**
+ * Text Rendering Setting
+ */
+body, h1, h2, h3, h4, h5, h6, h7 {
+	color			:#333;
+	font-family		:sans-serif;
+	line-height		:140%;
+}
+
+/*======================================================================*//**
+ * Anchor Setting
+ */
+a {
+	color			:#06C;
+	text-decoration	:none;
+}
+a:visited {
+	color			:#06C;
+}
+a:hover {
+	color			:#F33;
+}
+a:active {
+	color			:#F33;
+}
+
+/*======================================================================*//**
+ * #page Setting
+ */
+#page {
+	text-align		:left;
+	width			:980px;
+	margin			:0 auto;
+	background		:#FFF url(/css/page_bg_white.png) repeat-y;
+}
+
+/*======================================================================*//**
+ * Page-Header Setting
+ */
+#page-header {
+	width			:980px;
+	height			:110px;
+	background		:url(/css/header_bg_white.png) no-repeat;
+}
+#page-header h1 {
+	position		:absolute;
+	left			:10px;
+	top			:40px;
+}
+#page-header #navi-global {
+	position		:absolute;
+	right			:20px;
+	top			:40px;
+	list-style		:none;
+}
+#page-header #navi-global li {
+	display			:list-item !important;display:inline;
+	float			:left;
+	margin			:0;
+}
+#page-header #navi-global li a {
+	color			:#333;
+	font-weight		:bold;
+	line-height		:70px;
+	padding			:10px;
+}
+#page-header #navi-global li a:visited {
+	color			:#333;
+}
+#page-header #navi-global li a:hover {
+	color			:#F33;
+}
+#page-header #navi-global li a:active {
+	color			:#F33;
+}
+#page-header #navi-utility {
+	position		:absolute;
+	right			:10px;
+	top			:-10px;
+	list-style		:none;
+}
+#page-header #navi-utility li {
+	display			:list-item !important;display:inline;
+	float			:left;
+	padding			:10px 10px 10px 11px;
+}
+#page-header #navi-utility li:first-child {
+	background		:none;
+}
+#page-header #navi-utility li a {
+	color			:#333;
+	line-height		:20px;
+}
+#page-header #navi-utility li a:visited {
+	color			:#333;
+}
+#page-header #navi-utility li a:hover {
+	color			:#F33;
+}
+#page-header #navi-utility li a:active {
+	color			:#F33;
+}
+#page-header #navi-language {
+	position		:absolute;
+	right			:0;
+	top			:10px;
+	list-style		:none;
+}
+#page-header #navi-language li {
+	display			:list-item !important;display:inline;
+	float			:left;
+	margin			:0 10px;
+}
+
+#page-header #navi-language li a {
+	line-height		:20px;
+}
+
+/*======================================================================*//**
+ * Page-Content Setting
+ */
+#page-content {
+	padding			:0 15px 15px;
+}
+#page-content .section a {
+	color			:#06C;
+	text-decoration	:none;
+}
+#page-content .section a:visited {
+	color			:#06C;
+}
+#page-content .section a:hover {
+	color			:#F33;
+	text-decoration	:underline;
+}
+#page-content .section a:active {
+	color			:#F33;
+}
+#page-content #page-subject {
+	width			:900px;
+	height			:100px;
+	padding			:30px 20px;
+	background		:#FFFFFF;
+}
+#page-content #page-subject * {
+	color			:#000;
+	display			:inline;
+	float			:left;
+	line-height		:100px;
+}
+#page-content #page-subject h2 {
+	font-size		:200%;
+	padding			:0 1em 0 0;
+	margin			:0 1em 0 0;
+	border-right	:1px solid #CCC;
+}
+#page-content #page-main {
+	width			:900px;
+	display			:block !important;display:inline;
+	float			:left;
+	margin			:20px 20px 10px 10px;
+}
+#page-content #page-main h3 {
+	font-size		:140%;
+	font-weight		:bold;
+	line-height		:160%;
+	margin			:0 0 1em 0;
+}
+#page-content #page-main h4 {
+	font-size		:110%;
+	font-weight		:bold;
+	margin			:0 0 1em 0;
+}
+#page-content #page-main hr {
+	display			:block;
+	margin			:0 0 50px 0;
+	border			:0;
+	background		:url(/css/separate_dot_gl_v.png) repeat-x;
+}
+#page-content #page-sub {
+	display			:block !important;display:inline;
+	width			:200px;
+	float			:left;
+	margin			:20px 0;
+}
+#page-content #navi-category {
+	border			:5px solid #EEE;
+}
+#page-content #navi-category h3 {
+	color			:#333;
+	font-weight		:bold;
+	display			:block;
+	padding			:10px;
+	margin			:0 0 1px 0;
+	background		:#E6E6E6 url(/css/thead_tr_bg.png) repeat-x 0 50%;
+}
+#page-content #navi-category ul {
+	list-style		:none;
+}
+#page-content #navi-category ul li {
+	display			:inline;
+	margin			:0;
+	padding			:0;
+}
+#page-content #navi-category ul li a {
+	color			:#666;
+	display			:block;
+	padding			:10px;
+	margin			:1px 0 0 0;
+	/*background		:#F6F6F6 url(/css/tbody_td_bg.png) right bottom;*/
+}
+#page-content #navi-category ul li:first-child a {
+	margin			:0;
+}
+#page-content #navi-category ul li a:visited {
+}
+#page-content #navi-category ul li a:hover {
+	background		:#E6E6E6;
+	text-decoration	:none;
+}
+#page-content #navi-category ul li a:active {
+}
+#page-content #navi-category ul li a span {
+	color			:#333;
+	font-weight		:bold;
+}
+
+/*======================================================================*//**
+ * Page-Footer Setting
+ */
+#page-footer {
+	padding			:10px 10px 50px;
+	/*background		:url(/css/footer_bg.png) no-repeat bottom;*/
+	background		:url(/css/footer_bg_white.png) no-repeat bottom;
+}
+#page-footer #navi-foot {
+	list-style		:none;
+	margin			:0 1px;
+	padding			:5px 0 5px 5px;
+	/*background		:#000;*/
+	background		:#DDD;
+}
+#page-footer #navi-foot li {
+	display			:list-item !important;display:inline;
+	float			:left;
+	margin			:0 5px 0 0;
+	padding			:0 10px 0 11px;
+	background		:url(/css/separate_dot_gl_h.png) repeat-y;
+}
+#page-footer #navi-foot li:first-child {
+	background		:none;
+}
+#page-footer #navi-foot li a {
+	color			:#333;
+}
+#page-footer #navi-foot li a:visited {
+	color			:#333;
+}
+#page-footer #navi-foot li a:hover {
+	color			:#333;
+}
+#page-footer #navi-foot li a:active {
+	color			:#F33;
+}
+#page-footer #navi-supply {
+	display			:block !important;display:inline;
+	float			:left;
+	list-style		:none;
+	margin			:10px;
+}
+#page-footer #navi-supply li {
+	display			:list-item !important;display:inline;
+	float			:left;
+	margin			:0 5px 0 0;
+}
+#page-footer #navi-pagetop {
+	position		:absolute;
+	top				:10px;
+	right			:10px;
+}
+#page-footer #navi-pagetop a {
+	color			:#FFF;
+	display			:block;
+	margin			:0 10px 0 0;
+	padding			:5px 15px 5px 10px;
+	background		:url(/css/navi_pagetop.png) no-repeat right;
+}
+#page-footer #navi-pagetop a:visited {
+	color			:#FFF;
+}
+#page-footer #navi-pagetop a:hover {
+	color			:#F33;
+}
+#page-footer #navi-pagetop a:active {
+	color			:#F33;
+}
+#page-footer #page-copyright {
+	display			:block !important;display:inline;
+	text-align		:right;
+	float			:right;
+	margin			:10px;
+}
+
+
+/*======================================================================*//**
+ * .navi-top Setting
+ */
+.navi-top {
+	text-align		:right;
+	padding			:10px;
+}
+
+.navi-top a {
+	color			:#999;
+	margin			:0;
+	padding			:5px 15px 5px 10px;
+	background		:url(/css/navi_pagetop.png) no-repeat right;
+}
+.navi-top a:visited {
+	color			:#999;
+}
+navi-top a:hover {
+	color			:#F33;
+}
+.navi-top a:active {
+	color			:#F33;
+}
+
+.scissorsTitle {
+	padding:0 0 0 30px;
+	background:url(/images/scissors.png)  left top no-repeat;
+}
+
+/*======================================================================*//**
+ * Table Setting
+ */
+table {
+	border-collapse	:collapse;
+	width			:100%;
+	clear			:both;
+	border			:none;
+}
+table th {
+	text-align		:left;
+	white-space		:nowrap;
+	vertical-align	:top;
+	padding			:0.5em;
+	border			:1px solid #FFF;
+	background		:#E6E6E6 url(/css/tbody_tr_bg.png) right bottom;
+}
+table thead th {
+	background		:#E6E6E6 url(/css/thead_tr_bg.png) repeat-x 0 50%;
+}
+table tbody th {
+	width			:0px;
+}
+table td {
+	vertical-align		:top;
+	padding			:0.5em;
+	border			:none;
+	border-collapse		:collapse;
+}
+
+.section-half-left {
+	display: block !important;
+	float: left;
+	margin: 0 20px 10px 0;
+	width: 400px;
+}
+
+.section-half-right {
+	display: block !important;
+	float: right;
+	margin: 0 0 10px;
+	width: 400px;
+}
+
+.section-wide {
+	display: block !important;
+	float: none;
+	width: 850px;
+}
+
+#wrap {
+	max-width:50em;
+	margin:0 auto;
+}
+* html #wrap {width:50em}
+/* Default CSS
+================================================*/
+/* Basic styling, used when JavaScript is unsupported */
+.cbb {
+	margin:1em 0;
+	padding:0 10px;
+	border:1px solid #666;
+	background:#fff;
+}
+.cbb h1 {
+	margin:0 -10px;
+	padding:0.3em 10px;
+	background:#efece6;
+	font:bold 1.2em/1 Arial, Helvetica, sans-serif;
+}
+/* Normal styling */
+.cb {margin:0.5em 0;}
+	/* Top corners and border */
+.bt {
+	height:17px;
+	margin:0 0 0 18px;
+	background:url(/css/box.png) no-repeat 100% 0;
+}
+.bt div {
+	position:relative;
+	left:-18px;
+	width:18px;
+	height:17px;
+	background:url(/css/box.png) no-repeat 0 0;
+	font-size:0;
+	line-height:0;
+}
+ 
+	/* Bottom corners and border */
+.bb {
+	height:14px;
+	margin:0 0 0 12px;
+	background:url(/css/box.png) no-repeat 100% 100%;
+}
+.bb div {
+	position:relative;
+	left:-12px;
+	width:12px;
+	height:14px;
+	background:url(/css/box.png) no-repeat 0 100%;
+	font-size:0;
+	line-height:0;
+}
+ 
+	/* Left border */
+.i1 {
+	padding:0 0 0 12px;
+	background:url(/css/borders.png) repeat-y 0 0;
+}
+	/* Right border */
+.i2 {
+	padding:0 12px 0 0;
+	background:url(/css/borders.png) repeat-y 100% 0;
+}
+	/* Wrapper for the content. Use it to set the background colour and insert some padding between the borders and the content. */
+.i3 {
+	display:block;
+	margin:0;
+	padding:1px 10px;
+	background:#fff;
+}
+	/* Make the content wrapper auto clearing so it will contain floats (see http://positioniseverything.net/easyclearing.html). */
+.i3:after {
+	content:"."; 
+	display:block; 
+	height:0; 
+	clear:both; 
+	visibility:hidden;
+}
+.i3 {display:inline-block;}
+.i3 {display:block;}
+/* Default CSS ends here */
+ 
+/* Custom CSS
+================================================*/
+/* You can use different borders for different boxes on the same page. Just adjust the CSS. Here are a few examples, one of which uses the GIF images instead of the PNG images. Note that you can also adjust borders, heights and paddings this way. Remember to adjust the IE CSS as well. */
+ 
+.one {
+	position:absolute;
+	top:0;
+	right:0;
+}
+.two {
+	float:left;
+	width:45%;
+}
+.two .i1,
+.two .i2 { background-image:url(/css/borders.gif); }
+.two .bt,
+.two .bt div,
+.two .bb,
+.two .bb div { background-image:url(/css/box.gif); }
+#three {
+	float:left;
+	clear:both;
+	width:80%;
+}
+#three .cb {
+	float:left;
+	width:40%;
+}
+.button {
+	float:left;
+	margin-top:0;
+}
+.button .bt {
+	height:8px;
+	margin:0 0 0 9px;
+	background-image:url(/css/button.png);
+}
+.button .bt div {
+	left:-9px;
+	width:9px;
+	height:8px;
+	background-image:url(/css/button.png);
+}
+.button .bb {
+	height:8px;
+	margin:0 0 0 8px;
+	background-image:url(/css/button.png);
+}
+.button .bb div {
+	left:-8px;
+	width:8px;
+	height:8px;
+	background-image:url(/css/button.png);
+}
+.button .i1 {
+	padding:0 0 0 3px;
+	background-image:url(/css/button-borders.png);
+}
+.button .i2 {
+	padding:0 3px 0 0;
+	background-image:url(/css/button-borders.png);
+}
+.button .i3 {
+	padding:0 0.5em;
+	background:#3a3d40 url(/css/button.png) no-repeat -3px -8px;
+	font-weight:bold;
+	text-decoration:none;
+	text-align:center;
+}
+.button a:link,
+.button a:visited,
+.button a:hover {
+	border:none;
+	color:#fff;
+}
+ 
+/* Just a bit of styling for this demo page. Adjust as you wish. */
+#absolute-wrapper {
+	position:relative;
+	height:9em;
+}
+.cb li {margin-left:1em;}
+
+<!-- 
+* html .i1,
+* html .i2 {background-image:url(/css/borders.gif);}
+* html .bt,
+* html .bt div,
+* html .bb,
+* html .bb div {background-image:url(/css/box.gif);}
+/* Set a height to fix up some rendering issues. */
+* html .i1,
+* html .i3 {height:1px;}
+ 
+/* Give the absolutely positioned box a width (including IE 7)*/
+.one {width:70%;}
+ 
+/* Custom rules for the buttons */
+/* All IE versions need a width */
+.button {width:20em;}
+/* IE 7 does not need these */
+* html .button .i1,
+* html .button .i2 {background:transparent;}
+* html .button .bt,
+* html .button .bt div {background-image:url(/css/button.gif);}
+* html .button .bb,
+* html .button .bb div {background-image:url(/css/button.gif);}
+<![endif]--> 

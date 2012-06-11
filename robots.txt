@@ -1,0 +1,8 @@
+Sitemap: http://www.hairs-anchor.com/sitemap.xml
+User-Agent: *
+Allow: /
+Disallow: /css/
+Disallow: /js/
+Disallow: /images/
+Disallow: /prev/
+Disallow: /howto/

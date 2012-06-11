@@ -1,0 +1,169 @@
+@charset "utf-8";
+
+/*======================================================================*//**
+ * #page Setting
+ */
+
+#page-content #page-subject {
+	width		:940px;
+	height		:680px;
+	padding		:0;
+	border		:1px;
+	background	:#FFFFFF;
+	/*background	:#000 url(/images/anchor-top.png) no-repeat;*/
+}
+#page-content #page-subject * {
+	color		:#FFF;
+	display		:inline;
+	float		:none;
+	margin		:0;
+	padding		:0;
+	line-height	:100%;
+}
+#page-content #page-subject p,
+#page-content #page-subject ul {
+	display	:block;
+}
+#page-content #page-subject li {
+	display	:list-item;
+}
+
+
+/*======================================================================*//** */
+
+#page-content #page-top {
+	width	:940px;
+	display	:block !important;display:inline;
+	float	:left;
+	margin	:20px 20px 0px 10px;
+}
+#page-content #page-top h3 {
+	font-size	:140%;
+	font-weight	:bold;
+	line-height	:160%;
+	margin		:0 0 0.5em 0;
+}
+#page-content #page-top h4 {
+	font-size	:150%;
+	font-weight	:400;
+	margin		:0.4em 0 0 0;
+	line-height	:1.1em;
+}
+#page-content #page-top hr {
+	display		:block;
+	margin		:0 0 50px 0;
+	border		:0;
+	background	:url(/css/separate_dot_gl_v.png) repeat-x;
+}
+
+/*menulist*/
+#menulist {}
+#page-content #menulist a{
+	color:#000; 
+	text-decoration:none;
+}
+#page-content #menulist a:visited { 
+	color:#000; 
+}
+#page-content #menulist a:hover{
+	color:#000; 
+	text-decoration:underline;
+}
+#page-content #menulist a:active { 
+	color:#000; 
+}
+#menulist table {
+	border-collapse	:collapse;
+	width		:100%;
+	clear		:both;
+	border		:#CCCCCC;
+}
+#menulist table td {
+	vertical-align	:middle;
+	padding		:1em 0.6em 1em 0.7em;
+	border		:0;
+	/*background	:#CCCCCC right bottom;*/
+	background	:#FFF2DA right bottom;
+	border-bottom	:1px solid #FFF;
+}
+
+.scissorsTitle {
+	padding:0 0 0 30px;
+	background:url(/images/scissors.png)  left top no-repeat;
+}
+
+#page-footer {
+	padding	:10px 10px 50px;
+	/*background	:url(/css/footer_bg.png) no-repeat bottom;*/
+	background	:url(/css/footer_bg_white.png) no-repeat bottom;
+}
+#page-footer #navi-foot {
+	list-style	:none;
+	margin		:0 1px;
+	padding		:5px 0 5px 5px;
+	background	:#DDD;
+}
+#page-footer #navi-foot li {
+	color		:#333;
+	display		:list-item !important;display:inline;
+	float		:right;
+	margin		:0 5px 0 0;
+	padding		:0 10px 0 11px;
+	background	:url(/css/separate_dot_gl_h.png) repeat-y;
+}
+#page-footer #navi-foot li:first-child {
+	background	:none;
+}
+#page-footer #navi-foot li a {
+	color	:#FFF;
+}
+#page-footer #navi-foot li a:visited {
+	color	:#FFF;
+}
+#page-footer #navi-foot li a:hover {
+	color	:#F33;
+}
+#page-footer #navi-foot li a:active {
+	color	:#F33;
+}
+#page-footer #navi-supply {
+	display		:block !important;display:inline;
+	float		:left;
+	list-style	:none;
+	margin		:10px;
+}
+#page-footer #navi-supply li {
+	display	:list-item !important;display:inline;
+	float	:left;
+	margin	:0 5px 0 0;
+}
+#page-footer #navi-pagetop {
+	position	:absolute;
+	top		:10px;
+	right		:10px;
+}
+#page-footer #navi-pagetop a {
+	color		:#FFF;
+	display		:block;
+	margin		:0 10px 0 0;
+	padding		:5px 15px 5px 10px;
+	background	:url(/css/navi_pagetop.png) no-repeat right;
+}
+#page-footer #navi-pagetop a:visited {
+	color	:#FFF;
+}
+#page-footer #navi-pagetop a:hover {
+	color	:#F33;
+}
+#page-footer #navi-pagetop a:active {
+	color	:#F33;
+}
+#page-footer #page-copyright {
+	display		:block !important;display:inline;
+	text-align	:right;
+	float		:right;
+	margin		:10px;
+}
+.qrcode{
+	text-align	:center;
+}

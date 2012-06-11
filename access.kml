@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+	<Document>
+		<name>ヘアーズ　アンカー(hairsANCHOR)</name>
+		<atom:author>
+			<atom:name>ヘアーズ　アンカー</atom:name>
+		</atom:author>
+		<atom:link href="http://www.hairs-anchor.com/" />
+		<Placemark>
+			<name>大阪府羽曳野市羽曳が丘５丁目１０-７</name>
+			<open>1</open>
+			<address>大阪府羽曳野市羽曳が丘５丁目１０-７</address>
+			<LookAt>
+				<longitude>135.595619</longitude>
+				<latitude>34.541373</latitude>
+				<altitude>0</altitude>
+				<range>1000</range>
+				<tilt>0</tilt>
+				<heading>0</heading>
+			</LookAt>
+			<styleUrl>http://maps.google.co.jp:80/maps?q=大阪府羽曳野市羽曳ヶ丘5-10-7&amp;sll=34.5413,135.594&amp;sspn=0.00246898,0.00378357&amp;output=kml&amp;ie=utf-8&amp;v=2.2&amp;cv=5.0.11337.1968&amp;hl=ja#default+nicon=http://maps.google.com/mapfiles/kml/pal3/icon60.png+hicon=http://maps.google.com/mapfiles/kml/pal3/icon52.png</styleUrl>
+			<Point>
+				<coordinates>135.595619,34.541373,0</coordinates>
+			</Point>
+		</Placemark>
+	</Document> 
+</kml>

@@ -1,0 +1,116 @@
+﻿@charset "utf-8";
+
+/*======================================================================*//**
+ * #page Setting
+ */
+
+#page-content #page-subject {
+	background		:#FFF url(/images/subject-bg-home.png) no-repeat;
+}
+
+#page-footer {
+	padding	:10px 10px 50px;
+	/*background	:url(/css/footer_bg.png) no-repeat bottom;*/
+	background	:url(/css/footer_bg_white.png) no-repeat bottom;
+}
+#page-footer #navi-foot {
+	list-style	:none;
+	margin		:0 1px;
+	padding		:5px 0 5px 5px;
+	background	:#DDD;
+}
+#page-footer #navi-foot li {
+	color		:#333;
+	display		:list-item !important;display:inline;
+	float		:right;
+	margin		:0 5px 0 0;
+	padding		:0 10px 0 11px;
+	background	:url(/css/separate_dot_gl_h.png) repeat-y;
+}
+#page-footer #navi-foot li:first-child {
+	background	:none;
+	text-align	:right;
+}
+#page-footer #navi-foot li a {
+	color	:#FFF;
+}
+#page-footer #navi-foot li a:visited {
+	color	:#FFF;
+}
+#page-footer #navi-foot li a:hover {
+	color	:#F33;
+}
+#page-footer #navi-foot li a:active {
+	color	:#F33;
+}
+#page-footer #navi-supply {
+	display		:block !important;display:inline;
+	float		:left;
+	list-style	:none;
+	margin		:10px;
+}
+#page-footer #navi-supply li {
+	display	:list-item !important;display:inline;
+	float	:left;
+	margin	:0 5px 0 0;
+}
+#page-footer #navi-pagetop {
+	position	:absolute;
+	top		:10px;
+	right		:10px;
+}
+#page-footer #navi-pagetop a {
+	color		:#FFF;
+	display		:block;
+	margin		:0 10px 0 0;
+	padding		:5px 15px 5px 10px;
+	background	:url(/css/navi_pagetop.png) no-repeat right;
+}
+#page-footer #navi-pagetop a:visited {
+	color	:#FFF;
+}
+#page-footer #navi-pagetop a:hover {
+	color	:#F33;
+}
+#page-footer #navi-pagetop a:active {
+	color	:#F33;
+}
+#page-footer #page-copyright {
+	display		:block !important;display:inline;
+	text-align	:right;
+	float		:right;
+	margin		:10px;
+}
+#gallery {
+	margin-bottom: 15px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 780px;
+}
+#image-box {
+	width: 770px;
+	height: 580px;
+	margin: 5px 0;
+	position: relative;
+}
+#bigimg {
+	width: 768px;
+	height: 576px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.thumb-img-left {
+	float: left;
+	width: 150px;
+}
+.thumb-img {
+	float: left;
+	width: 150px;
+	margin: 0 3px;
+}
+.thumb-img-right {
+	float: left;
+	width: 150px;
+	margin-left: 3px;
+}
